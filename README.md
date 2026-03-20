@@ -30,13 +30,19 @@
 │   │   └── ...
 │   └── 1024/                    # Compiled VMFBs for 1024x1024
 │       └── ...
-└── traces/
-    ├── 512/                     # ATT thread traces for 512x512
-    │   ├── 512_cid_1058/
-    │   │   ├── stats_*.csv      # Per-instruction hit/latency/stall stats
-    │   │   └── ui_output_*/     # Decoded wave traces (code.json, wstates, etc.)
+├── traces/
+│   ├── 512/                     # ATT thread traces for 512x512
+│   │   ├── 512_cid_1058/
+│   │   │   ├── stats_*.csv      # Per-instruction hit/latency/stall stats
+│   │   │   └── ui_output_*/     # Decoded wave traces (code.json, wstates, etc.)
+│   │   └── ...
+│   └── 1024/                    # ATT thread traces for 1024x1024
+│       └── ...
+└── profiles/
+    ├── 512/                     # rocprof-compute stats for 512x512
+    │   ├── 512_cid_1058.txt
     │   └── ...
-    └── 1024/                    # ATT thread traces for 1024x1024
+    └── 1024/                    # rocprof-compute stats for 1024x1024
         └── ...
 ```
 

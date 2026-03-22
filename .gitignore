@@ -1,2 +1,5 @@
 ablation/
 *.db
+*.att
+traces/8192/
+traces/16384/
